@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         RequestBody requestBody = RequestBody.create(jsonBody.toString(), JSON);
         Request request = new Request.Builder()
                 .url(getString(R.string.https_api_openai_com_v1_images_generations))
-                .header("Authorization", "Bearer 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")
+                .header("Authorization", "Bearer /*APIKEY"*/)
                 .post(requestBody)
                 .build();
 
