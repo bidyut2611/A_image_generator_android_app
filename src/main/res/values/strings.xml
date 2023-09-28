@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Image GeneratorwithBid</string>
+    <string name="https_api_openai_com_v1_images_generations">https://api.openai.com/v1/images/generations</string>
+    <string name="todo">TODO</string>
+</resources>
